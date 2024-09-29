@@ -1,0 +1,62 @@
+.centered-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.text-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.column h4 {
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.column p {
+  text-align: justify;
+}
+
+/* .column-left {
+  flex: 1;
+  margin-right: 10px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.column-right {
+  flex: 1;
+  margin-left: 10px;
+  margin-top: 60px; /* Right column starts lower 
+}
+
+.yellow-rectangle {
+  background-color: #ffc107; /* Yellow color 
+  height: 100%; /* Full height of the column 
+  width: 75%; /* Takes up 3/4 of the column width 
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+.text-content {
+  position: relative;
+  margin-left: 20px; /* Text starts just towards the end of the rectangle */
+}
+
+.column-left h2,
+.column-right h2 {
+  margin-bottom: 10px;
+}
+
+.column-left p,
+.column-right p {
+  text-align: justify;
+}
